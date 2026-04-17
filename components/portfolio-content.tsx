@@ -194,7 +194,7 @@ export function PortfolioContent() {
         >
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img 
-            src="/profilepic.jpg"
+            src="/dee-hero-shotc.jpg"
             alt="Dee - Digital Producer" 
             className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
           />
