@@ -101,7 +101,7 @@ const socialProjects = [
   {
     id: "hooperz",
     title: "Hooperz Squad Audience Growth",
-    description: "Grew a niche basketball content page from scratch to 2,500+  followers. Experimented with viral content algorithms, resulting in a flagship reel that generated 2.4 million views, with 360k Likes and 154 comments on Instagram.",
+    description: "Grew a niche basketball content page from scratch to 2,500+  followers. Experimented with viral content algorithms, resulting in a flagship reel that generated 2.4 million views, with 360k Likes and 154 comments on Instagram. I also utilised the page further by successfully selling merchandise.",
     media: [
       { type: "image", url: "/HooperInstaaa.png" } //
     ]
