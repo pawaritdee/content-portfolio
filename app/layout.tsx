@@ -7,7 +7,7 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'Digital Producer & Tech Marketer',
+  title: 'Dee Sethi | Digital Producer',
   description: 'I blend video production, community building, and technical expertise to help tech brands grow.',
   generator: 'v0.app',
   icons: {
