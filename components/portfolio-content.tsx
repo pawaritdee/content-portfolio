@@ -13,31 +13,31 @@ const services = [
 const videoProjects = [
   {
     id: "helpme",
-    title: "HelpMe Startup Promo",
+    title: "Startup Promo: HelpMe in 60 Seconds",
     description: "Produced a 60-second explainer video for a tech startup. This pitch video was apart of the team's success as they won second place in a nationwide pitching competition in Thailand.",
     media: [
       { type: "youtube", url: "https://www.youtube.com/embed/VOAJZcyry_s" }    
     ]
   },
   {
+    id: "emma",
+    title: "Ingrid Film Promo: Director Emma Brooksby Interview (Multi-Cam)",
+    description: "Shot a professional multi-cam interview. Set up a 2-camera lighting, recordied all b-rolls and handled post-production multi-cam syncing and editing.",
+    media: [
+      { type: "youtube", url: "https://www.youtube.com/embed/ggaqnmiKCks" }
+    ]
+  },
+  {
     id: "gamingdee",
-    title: "GamingDee: ChatGPT vs. Gemini",
+    title: "Youtube Video Edit: ChatGPT vs Gemini Minecraft Challenge",
     description: "A high-retention Youtube video edit for a gaming channel. Focused heavily on pacing, visual hooks, and motion graphics to maximise viewer watch time.",
     media: [
       { type: "youtube", url: "https://www.youtube.com/embed/s_rSjRRY8LU?si=EFqCrFsxlRPPfX2Y" }
     ]
   },
   {
-    id: "emma",
-    title: "Emma Brooksby Multi-Cam Interview",
-    description: "Shot a professional multi-cam interview. Set up a 2-camera lighting, recordied all b-rolls and handled all post-production multi-cam syncing and editing.",
-    media: [
-      { type: "youtube", url: "https://www.youtube.com/embed/ggaqnmiKCks" }
-    ]
-  },
-  {
     id: "yindee",
-    title: "Yindee Wellness Channel Launch",
+    title: "Youtube Channel Launch: YinDee Wellness",
     description: "End-to-end production for a yoga and singing bowl YouTube channel. Filmed using the Blackmagic app on iPhone 15 Pro, managing manual camera settings, custom lighting setups, and thumbnail design. She's my mum and I wanted to bring her talent to the Youtube world :)",
     media: [
       { type: "image", url: "/YinDee1.png" },
@@ -47,7 +47,7 @@ const videoProjects = [
     },
       {
     id: "prefactor",
-    title: "Prefactor Hackathon Montage",
+    title: "Event Media Coverage: Prefactor Hackathon Montage",
     description: "Filmed and edited a dynamic event montage for a startup mini-hackathon. Directed challenge-style, on-the-ground interviews to drive social engagement.",
     media: [
       { type: "youtube", url: "https://www.youtube.com/embed/4ld1cuN3CPI" }
@@ -55,7 +55,7 @@ const videoProjects = [
   },
     {
       id: "Schweppes",
-      title: "Schweppes Commercial Project",
+      title: "Secondary School Project: Schweppes Commercial Project",
       description: "My first ever project using a DSLR at the age of 16 in a project that involves creating an advertising material for any brand, I decided to make a commercial for Schweppes drinks that I just happen to have in the fridge.",
       media: [
         { type: "youtube", url: "https://www.youtube.com/embed/j7WVzPJDs7U" }
@@ -63,7 +63,7 @@ const videoProjects = [
     },
     {
       id: "Kiazul",
-      title: "Music Video Promo for Melbourne Rapper, Kia Zul",
+      title: "Music Video Promo: Melbourne Rapper, Kia Zul",
       description: "Filmed and edited by me, dynamic camera movements and angles with fast cuts, with the focus on matching the beat of the music. This song currently has over 100K streams on Spotify.",
       media: [
         { type: "youtube", url: "https://www.youtube.com/embed/_M9dxvEIpE8" }
@@ -74,7 +74,7 @@ const videoProjects = [
 const socialProjects = [
   {
     id: "beforetheymadeit",
-    title: "Before They Made It Podcast",
+    title: "Podcast Producing: Before They Made It",
     description: "Co-produced a social media content channel and podcast. Handled end-to-end production including directing behind the camera, post-production editing for high-retention shorts, and custom thumbnail design.",
     media: [
       { type: "youtube", url: "https://www.youtube.com/embed/ek98u8gAidM" },
@@ -83,7 +83,7 @@ const socialProjects = [
   },
   {
     id: "prefactor-social",
-    title: "Prefactor Challenge Shorts",
+    title: "Event Media Coverage: Prefactor Challenge Shorts",
     description: "Directed and edited on-the-ground, challenge-style short-form content during a startup hackathon, designed specifically for rapid social media engagement and event hype.",
     media: [
       { type: "youtube", url: "https://www.youtube.com/embed/_zRawd3HBns" }
@@ -91,7 +91,7 @@ const socialProjects = [
   },
   {
     id: "hammyknows",
-    title: "HammyKnows Educational Content",
+    title: "TikTok: HammyKnows Educational Content",
     description: "I noticed a massive trend in fast-paced educational content and wanted to test the waters myself. I built HammyKnows to experiment with visual hooks and pacing across TikTok, IG Reels, and YouTube Shorts. It served as my personal analytics lab, successfully landing 14K views on a single Tiktok video. ",
     media: [
       { type: "youtube", url: "https://www.youtube.com/embed/t8DuHyxoxPc" },
@@ -100,7 +100,7 @@ const socialProjects = [
   },
   {
     id: "hooperz",
-    title: "Hooperz Squad Audience Growth",
+    title: "Instagram: Hooperz Squad 1-Year Organic Growth",
     description: "Grew a niche basketball content page from scratch to 2,500+  followers. Experimented with viral content algorithms, resulting in a flagship reel that generated 2.4 million views, with 360k Likes and 154 comments on Instagram. I also utilised the page further by successfully selling merchandise.",
     media: [
       { type: "image", url: "/HooperInstaaa.png" } //
@@ -120,8 +120,8 @@ const communityProjects = [
   },
   {
     id: "struxel",
-    title: "Struxel AI SaaS (Pre-Accelerator)",
-    description: "Participated in a startup pre-accelerator focusing on Business Development and tech. Prototyped AI products, executed B2B cold outreach campaigns, and built a strong network of local young founders. The design shown is done by me, on Figma, the client was greatly satisfied with the work.",
+    title: "Design Work: UI/UX Wireframe for SaaS Startup",
+    description: "I made the design on Figma, and the client was greatly satisfied with the work.",
     media: [
       { type: "image", url: "/struxel1.png" } 
     ]
@@ -429,7 +429,7 @@ export function PortfolioContent() {
                       </p>
                       
                       <p className="mb-4">
-                        Now at <strong>21</strong>, I'm bridging the gap between tech and creative. As a CS student, my technical literacy runs deep—I've been actively using and studying LLMs and AI workflows since ChatGPT dropped in 2022. I don't just use tools; I understand how they work under the hood.
+                        Now at <strong>21</strong>, I'm bridging the gap between tech and creative. As a CS student, my technical literacy runs deep and I've been actively using and studying LLMs and AI workflows since ChatGPT dropped in 2022. I don't just use tools, I understand how they work under the hood.
                       </p>
                       
                       <p className="font-sans font-bold text-lg border-l-4 border-foreground pl-4 mt-8">
