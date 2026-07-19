@@ -7,7 +7,17 @@ import { X, Linkedin, Mail } from "lucide-react"
 const services = [
   { id: "video", title: "Video Production", icon: "video" as const },
   { id: "social", title: "Short Form & Social Media", icon: "social" as const },
-  { id: "community", title: "Community & Growth", icon: "community" as const },
+  { id: "community", title: "Community & Other", icon: "community" as const },
+]
+
+const tools = [
+  "Adobe Premiere Pro",
+  "Adobe Photoshop",
+  "Adobe Illustrator",
+  "Figma",
+  "Canva",
+  "Blackmagic Camera App",
+  "OBS Studio",
 ]
 
 const videoProjects = [
@@ -233,6 +243,25 @@ export function PortfolioContent() {
         </div>
       </div>
 
+
+        {/* NEW: Neobrutalist Tool Badges */}
+        <div className="w-full mt-6 md:mt-10 px-4 md:px-0 flex flex-col items-center gap-5">
+          <h3 className="font-mono text-sm font-bold text-foreground/70 uppercase tracking-widest">
+            Production Toolkit
+          </h3>
+          <div className="flex flex-wrap justify-center gap-3 md:gap-4 max-w-3xl">
+            {tools.map((tool) => (
+              <span 
+                key={tool}
+                className="px-4 py-2 border-2 border-foreground bg-background font-sans font-bold text-sm md:text-base transition-transform hover:-translate-y-1 hover:shadow-[4px_4px_0px_0px_#1A1A1A]"
+                style={{ boxShadow: "2px 2px 0px 0px #1A1A1A" }}
+              >
+                {tool}
+              </span>
+            ))}
+          </div>
+        </div>
+
       {/* Large Modal - only render after mount */}
       {mounted && activeModal !== null && (
         <div
@@ -412,6 +441,9 @@ export function PortfolioContent() {
                     </div>
                   </div>
                 ))}
+
+
+                
 
                 {/* 4. About Me Block (Profile Picture Click) */}
                 {activeModal === "about" && (
